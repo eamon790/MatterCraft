@@ -1,16 +1,18 @@
 [
 {
-  "modid": "examplemod",
-  "name": "Example Mod",
-  "description": "Example placeholder mod.",
-  "version": "${version}",
-  "mcversion": "${mcversion}",
+  "modid": "matterCraft",
+  "name": "Matter Craft",
+  "description": "A mod allowing you to convert items and blocks into fundamental particles and manipulate them",
+  "version": "1.0",
+  "mcversion": "1.7.10",
   "url": "",
   "updateUrl": "",
-  "authorList": ["ExampleDude"],
-  "credits": "The Forge and FML guys, for making this example",
+  "authorList": ["Eamon790"],
+  "credits": "cpw for all his amazing work in Minecraft forge
+   and FML!,
+   Pahimar for Teaching me!",
   "logoFile": "",
-  "screenshots": [],
+
   "dependencies": []
-}
-]
+ }
+ ]
