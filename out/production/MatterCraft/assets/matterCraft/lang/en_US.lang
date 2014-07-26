@@ -6,6 +6,13 @@
 #Item Localizations
 ################################################
 
+item.mattercraft:screwDriver.name=Screw Driver
+item.mattercraft:ingotCopper.name=Copper Ingot
+item.mattercraft:nuggetCopper.name=Copper Nugget
+item.mattercraft:energyTransceiver.name=Energy Transceiver
+item.mattercraft:energyTransmitter.name=Energy Transmitter
+item.mattercraft:energyReceiver.name=Energy Receiver
+
 ################################################
 #Block Localizations
 ################################################

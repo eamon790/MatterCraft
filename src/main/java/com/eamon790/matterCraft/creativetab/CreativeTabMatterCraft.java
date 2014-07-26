@@ -2,6 +2,7 @@ package com.eamon790.matterCraft.creativetab;
 
 import com.eamon790.matterCraft.init.ModItems;
 import com.eamon790.matterCraft.reference.Reference;
+import com.eamon790.matterCraft.reference.Resources;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.creativetab.CreativeTabs;
@@ -14,7 +15,7 @@ public class CreativeTabMatterCraft
     {
         @Override
         @SideOnly(Side.CLIENT)
-        public Item getTabIconItem() { return ModItems.creativeTabIcon; }
+        public Item getTabIconItem() { return ModItems.itemScrewDriver; }
 
     };
 

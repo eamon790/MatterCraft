@@ -1,18 +1,25 @@
 package com.eamon790.matterCraft.init;
 
-import com.eamon790.matterCraft.item.CreativeTabIcon;
-import com.eamon790.matterCraft.item.ItemMatterCraft;
-import com.eamon790.matterCraft.item.ItemTest;
+import com.eamon790.matterCraft.item.*;
 import cpw.mods.fml.common.registry.GameRegistry;
-import net.minecraft.item.Item;
 
 public class ModItems
 {
-    public static final Item creativeTabIcon = new CreativeTabIcon();
-    public static final ItemMatterCraft itemTest = new ItemTest();
+    public static final ItemMatterCraft itemScrewDriver = new ItemScrewDriver();
+    public static final ItemMatterCraft itemIngotCopper = new ItemIngotCopper();
+    public static final ItemMatterCraft itemEnergyTransmitter = new ItemEnergyTransmitter();
+    public static final ItemMatterCraft itemEnergyTransceiver = new ItemEnergyTransceiver();
+    public static final ItemMatterCraft itemEnergyReceiver = new ItemEnergyReceiver();
+    public static final ItemMatterCraft itemNuggetCopper = new ItemNuggetCopper();
 
     public static void init()
     {
-        GameRegistry.registerItem(itemTest, itemTest.getUnlocalizedName());
+        GameRegistry.registerItem(itemScrewDriver, itemScrewDriver.getUnlocalizedName());
+        GameRegistry.registerItem(itemIngotCopper, itemIngotCopper.getUnlocalizedName());
+        GameRegistry.registerItem(itemEnergyTransmitter, itemEnergyTransmitter.getUnlocalizedName());
+        GameRegistry.registerItem(itemEnergyTransceiver, itemEnergyTransceiver.getUnlocalizedName());
+        GameRegistry.registerItem(itemEnergyReceiver, itemEnergyReceiver.getUnlocalizedName());
+        GameRegistry.registerItem(itemNuggetCopper, itemNuggetCopper.getUnlocalizedName());
+
     }
 }

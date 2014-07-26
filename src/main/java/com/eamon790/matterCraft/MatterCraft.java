@@ -1,6 +1,9 @@
 package com.eamon790.matterCraft;
 import com.eamon790.matterCraft.handler.ConfigurationHandler;
+import com.eamon790.matterCraft.init.MatterCraftOreDictionary;
+import com.eamon790.matterCraft.init.ModBlocks;
 import com.eamon790.matterCraft.init.ModItems;
+import com.eamon790.matterCraft.init.Recipes;
 import com.eamon790.matterCraft.proxy.IProxy;
 import com.eamon790.matterCraft.reference.*;
 import cpw.mods.fml.common.FMLCommonHandler;
@@ -26,12 +29,16 @@ public class MatterCraft
         FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
 
         ModItems.init();
+        ModBlocks.init();
+
+        MatterCraftOreDictionary.addEntries();
     }
 
     @Mod.EventHandler
     public static void init(FMLInitializationEvent initializationEvent)
     {
-
+        Recipes.initShapedRecipes();
+        Recipes.initShapelessRecipes();
     }
 
     @Mod.EventHandler
